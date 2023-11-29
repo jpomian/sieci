@@ -1,0 +1,89 @@
+{
+  "animations": [
+    {
+      "ID": 0,
+      "Original title": "How to Train Your Dragon",
+      "Studio": "DreamWorks Animation",
+      "Year of production": 2010,
+      "Time": "1h 38m",
+      "Directors": "Dean DeBlois, Chris Sanders",
+      "Keywords": [
+        "dragon",
+        "vikings",
+        "hiccup"
+      ]
+    },
+    {
+      "ID": 1,
+      "Original title": "Klaus",
+      "Studio": "The SPA Studios",
+      "Year of production": 2019,
+      "Time": "1h 36m",
+      "Directors": "Sergio Pablos, Carlos Martinez Lopez",
+      "Keywords": [
+        "christmas",
+        "postman",
+        "winter",
+        "gift",
+        "Santa Claus"
+      ]
+    },
+    {
+      "ID": 2,
+      "Original title": "The Incredibles",
+      "Studio": "Pixar Animation Studios",
+      "Year of production": 2004,
+      "Time": "1h 55m",
+      "Directors": "Brad Bird",
+      "Keywords": [
+        "family",
+        "superpower",
+        "superhero",
+        "secret"
+      ]
+    },
+    {
+      "ID": 3,
+      "Original title": "Up",
+      "Studio": "Pixel",
+      "Year of production": 2009,
+      "Time": "1h 36m",
+      "Directors": "Pete Docter, Bob Peterson",
+      "Keywords": [
+        "old man",
+        "talking dog",
+        "balloon",
+        "house"
+      ]
+    },
+    {
+      "ID": 4,
+      "Original title": "Shrek",
+      "Studio": "DreamWorks Animation",
+      "Year of production": 2001,
+      "Time": "1h 30m",
+      "Directors": "Andrew Adamson, Vicky Jenson",
+      "Keywords": [
+        "onion",
+        "ogre",
+        "donkey",
+        "dragon",
+        "princess"
+      ]
+    },
+    {
+      "ID": 5,
+      "Original title": "Fozen",
+      "Studio": "Walt Disney Animation",
+      "Year of production": 2013,
+      "Time": "1h 42",
+      "Directors": "Chris Buck, Jennifer Lee",
+      "Keywords": [
+        "winter",
+        "princess",
+        "snowman",
+        "sister"
+      ]
+    }
+  ]
+}
