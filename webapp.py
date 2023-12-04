@@ -62,7 +62,6 @@ def searchby(keyword):
 
 @app.route('/studios/<int:id>', methods=['PUT'])
 def setstudio(id):
-
     new_studio_name = request.args.get('studio')
 
     if not new_studio_name:
@@ -79,7 +78,6 @@ def setstudio(id):
         abort(404)
 
 def update_studio_by_id(animation_id, new_studio_name):
-
     animation = next((anim for anim in data.get('animations', []) if anim.get('ID') == animation_id), None)
 
     if animation:
