@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAuth 2</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Set the body height to full viewport height */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #0D0D0D; /* Nocturnal background color */
+            color: #FFFFFF; /* Text color */
+            font-family: Arial, sans-serif;
+        }
+
+        #login-link {
+            display: block;
+            padding: 20px;
+            font-size: 36px; /* Bigger font size */
+            color: #FFD700; /* Golden color */
+            text-decoration: none;
+            cursor: pointer;
+            text-shadow: 2px 2px 5px #888888;
+            margin-top: 20px; /* Space between login link and user info */
+        }
+
+        #user-info {
+            border: 1px solid #FFD700; /* Thin frame */
+            padding: 10px;
+            font-size: 20px;
+            margin-top: 20px; /* Space between frame and login link */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        {% if user %}
+            <div id="user-info">
+                E-mail: {{ user.get('email', 'N/A') }}<br>
+                Obrazek: <img src="{{ user.get('picture', '#') }}" alt="User Picture" style="width: 100px; height: 100px; border-radius: 50%;">
+            </div>
+            <a href="/logout" id="login-link">Wyloguj się</a>
+        {% else %}
+            <a href="/login" id="login-link">Zaloguj się</a>
+        {% endif %}
+    </div>
+</body>
+</html>
